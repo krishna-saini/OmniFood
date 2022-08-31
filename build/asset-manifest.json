@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/krishna-saini.github.io/Omnifood-App/static/css/main.d39cb909.css",
+    "main.js": "/krishna-saini.github.io/Omnifood-App/static/js/main.cfbc7ce9.js",
+    "static/media/mealsImage.jpg": "/krishna-saini.github.io/Omnifood-App/static/media/mealsImage.2971f633fc1382581cbf.jpg",
+    "index.html": "/krishna-saini.github.io/Omnifood-App/index.html",
+    "main.d39cb909.css.map": "/krishna-saini.github.io/Omnifood-App/static/css/main.d39cb909.css.map",
+    "main.cfbc7ce9.js.map": "/krishna-saini.github.io/Omnifood-App/static/js/main.cfbc7ce9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d39cb909.css",
+    "static/js/main.cfbc7ce9.js"
+  ]
+}
