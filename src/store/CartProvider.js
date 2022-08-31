@@ -47,7 +47,7 @@ const cartReduceFn = (prevState, action) => {
     const existingCartItem = prevState.items[existingCartItemIndex];
     let updatedItems;
 
-    if (existingCartItem.quantity == 1) {
+    if (existingCartItem.quantity === 1) {
       updatedItems = prevState.items.filter((item) => item.id !== action.id);
     } else {
       const updatedItem = {

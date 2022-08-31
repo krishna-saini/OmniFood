@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import CartIcon from "../Cart/CartIcon";
 import classes from "./HeaderCartButton.module.css";
-import Cart from "../Cart/Cart";
+
 import cartContext from "../../store/cart-context";
 
 const HeaderCartButtton = (props) => {
@@ -25,7 +25,7 @@ const HeaderCartButtton = (props) => {
     return () => {
       clearTimeout(timer);
     };
-  }, [numberOfCartItems]);
+  }, [numberOfCartItems, items.length ]);
   const btnClasses = `${classes.button} ${isCartUpdated ? classes.bump : ""}`;
 
   return (

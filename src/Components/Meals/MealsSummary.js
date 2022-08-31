@@ -1,5 +1,4 @@
 import classes from "./MealsSummary.module.css";
-import Card from "../UI/Card/Card";
 
 const MealsSummary = () => {
   return (
