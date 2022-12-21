@@ -49,6 +49,6 @@ This is a food ordering app.
 
 ## Screenshot
 ## desktop
-![](https://github.com/krishna-saini/OmniFood/omnifood.png)
+![](/omnifood.png)
 
 
